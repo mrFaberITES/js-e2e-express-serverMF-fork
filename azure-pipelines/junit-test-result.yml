@@ -8,6 +8,8 @@ trigger:
 
 pool:
   name: "MyPersonalAgent"
+  demands:
+    - agent.name -equals NOME_AGENT
 
 steps:
 - task: NodeTool@0

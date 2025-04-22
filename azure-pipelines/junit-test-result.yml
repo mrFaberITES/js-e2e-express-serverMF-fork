@@ -9,7 +9,7 @@ trigger:
 pool:
   name: "MyPersonalAgent"
   demands:
-    - agent.name -equals "AgentLinux"
+    - agent.name -equals AgentLinux
 
 steps:
 - task: NodeTool@0
